@@ -10,7 +10,6 @@ function Movie({ id, coverImg, title, summary, genres }) {
       </h2>
       <p>{summary}</p>
       <ul>
-        ssss
         <li>
           {genres.map((gen) => (
             <li key={gen}>{gen}</li>
